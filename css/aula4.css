@@ -4,14 +4,86 @@ h2 {
 }
 
 #link{ 
-    text-decoration:none; 
+    text-decoration:none;
+    font-variant-alternates: inherit;
     color:rgb(8, 8, 219); 
     
 }
 body {
+    line-height: 1;
     color: #333333;
     font-family: "Lucida Sans Unicode","Lucida Grande", sans-serif;
     margin-left: auto;
     margin-right: auto;
     width: 940px;
 }
+
+#menu ul {
+    margin: 0;
+    background-color: rgba(39, 41, 39, 0.87);
+    list-style: none;
+}
+
+#menu ul li {
+    display: inline;
+}
+#menu ul li a {
+    padding: 10px 40px;
+    display: inline-block;
+    
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+#menu ul li a:hover{
+    background-color: rgb(247, 62, 148);
+
+}
+
+
+#rodape {
+    color: black;
+    margin-bottom:2;
+    margin-top:150;
+    text-align: left;
+    clear: both;
+}
+
+#rodape img {
+    vertical-align: middle;
+    width: 40px;
+}
+
+.redes li a {
+    height: ;
+    width: ;
+    display: block;
+}
+
+footer {
+    padding: 20px 0;
+}
+
+.redes {
+    position: absolute;
+    bottom: 115px;
+    right: 55px;
+ }
+
+ #rodape {
+     position: relative;
+     bottom: 12px;
+ }
+
+ .redes li {
+    float: left;
+    margin-left: 25px;
+    margin-bottom: 27px;
+ }
+
+ ul {
+
+    list-style-type: none;
+    
+    }
