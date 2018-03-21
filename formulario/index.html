@@ -8,13 +8,14 @@
 </head>
 <body>
    <h2> Formulário de cadastro </h2>
+   <form action="" method="GET" >
   <p>  
       <label for= "nomecompleto">Nome Completo:</label> 
-      <input type="text" id="nomecompleto" nome="nomecompleto" placeholder="Informe o nome completo">
+      <input type="text" required nome="nomecompleto"  placeholder="Informe o nome completo">
     </p> 
   <p> 
         <label for= "email">E-mail:</label>
-      <input type="text" id="email" nome="email" placeholder="Informe um e-mail válido"></p>
+      <input   type="email" name="email" placeholder="Informe um e-mail válido"></p>
    
       <p>
         <label>Sexo:</label>
@@ -81,7 +82,8 @@
               <p>
                 <input type="submit" value="Enviar">
                 <input type="reset" value="Limpar campos">
-                <input type="hidden" name="id" id="id" value="234343">
+              
               </p>
+            </form>
 </body>
 </html>
